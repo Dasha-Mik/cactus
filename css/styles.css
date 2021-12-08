@@ -106,6 +106,10 @@ img {
     justify-content: center;
 }
 
+.form__input {
+    width: 0;
+}
+
 .cart {
     width: 20px;
     height: 20px;
@@ -424,6 +428,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
@@ -512,4 +517,3 @@ img {
     width: 100%;
     margin-bottom: 14px;
 }
-
